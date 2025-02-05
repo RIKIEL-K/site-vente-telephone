@@ -1,0 +1,232 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    font-weight: 400;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    margin-right: 2rem;
+    color: black ;
+}
+.navbar-brand{
+    font-weight: bold;
+    margin-left: 40px;
+    color: black;
+}
+.brand-form{
+    display: inline;
+    font-weight: bold;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 39px;
+    color: #1d1d1f;
+    line-height: 1.082;
+}
+.brand-text{
+    display: inline;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -.003em;
+    font-size: 39px;
+    color: #6e6e73; 
+    line-height: 1.082;
+    
+}
+.row1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-left: 70px;
+}
+.search-text{
+    display: inline;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    margin-left: 9px;
+}
+.search-chat{
+    display: inline;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4;
+    padding-bottom: 16px;
+    margin-left: 9px;  
+}
+body {
+background: #e8ebed;/*e2eaef*/
+font-family: "Open Sans", sans-serif;
+}
+h2 {
+color: #000;
+font-size: 26px;
+font-weight: 300;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+margin: 30px 0 60px;
+}
+
+h2::after {
+content: "";
+width: 100px;
+position: absolute;
+margin: 0 auto;
+height: 4px;
+border-radius: 1px;
+background: rgb(17, 16, 16);/*7ac400*/
+left: 0;
+right: 0;
+bottom: -20px;
+}
+.carousel {
+margin: 50px auto;
+padding: 0 70px;
+}
+.carousel .item {
+color: #747d89;
+min-height: 325px;
+text-align: center;
+overflow: hidden;
+}
+.carousel .thumb-wrapper {
+padding: 25px 15px;
+background: #fff;
+border-radius: 6px;
+text-align: center;
+position: relative;
+box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.carousel .item .img-box {
+height: 120px;
+margin-bottom: 20px;
+width: 100%;
+position: relative;
+}
+.carousel .item img {	
+max-width: 100%;
+max-height: 100%;
+display: inline-block;
+position: absolute;
+bottom: 0;
+margin: 0 auto;
+left: 0;
+right: 0;
+}
+.carousel .item h4 {
+font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+margin-bottom: 5px;
+}
+/*bouton add to cart*/
+.carousel .thumb-content .btn {
+color: rgb(21, 20, 20); /*7ac400*/
+font-size: 11px;
+text-transform: uppercase;
+font-weight: bold;
+background: none;
+border: 1px solid rgb(21, 20, 20);/*7ac400*/
+padding: 6px 14px;
+margin-top: 5px;
+line-height: 16px;
+border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+color: #fff;
+background: rgb(24, 23, 23); /*7ac400*/
+box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+font-size: 14px;
+font-weight: bold;
+margin-left: 5px;
+}
+.carousel .item-price {
+font-size: 13px;
+padding: 2px 0;
+}
+.carousel .item-price strike {
+opacity: 0.7;
+margin-right: 5px;
+}
+.carousel-control-prev, .carousel-control-next {
+height: 44px;
+width: 40px;
+background: rgb(18, 17, 17) ;	/*#7ac400*/
+margin: auto 0;
+border-radius: 4px;
+opacity: 0.8;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+background: rgb(15, 15, 15); /*#78bf00*/
+opacity: 1;
+}
+.carousel-control-prev i, .carousel-control-next i {
+font-size: 36px;
+position: absolute;
+top: 50%;
+display: inline-block;
+margin: -19px 0 0 0;
+z-index: 5;
+left: 0;
+right: 0;
+color: #fff;
+text-shadow: none;
+font-weight: bold;
+}
+.carousel-control-prev i {
+margin-left: -2px;
+}
+.carousel-control-next i {
+margin-right: -4px;
+}		
+.carousel-indicators {
+bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+width: 10px;
+height: 10px;
+margin: 4px;
+border-radius: 50%;
+border: none;
+}
+.carousel-indicators li {	
+background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+position: absolute;
+right: 10px;
+top: 10px;
+z-index: 99;
+cursor: pointer;
+font-size: 16px;
+color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+color: #ff6161;
+}
+.star-rating li {
+padding: 0;
+}
+.star-rating i {
+font-size: 14px;
+color: #ffc000;
+}
+a{
+padding: 0;
+margin: 0;
+}
+
